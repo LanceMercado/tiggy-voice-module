@@ -1,0 +1,21 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pth
+
+# Virtual envs
+env/
+venv/
+
+# Docker
+*.log
+*.pid
+/app/output/
+/app/voice_data/*.pth
+
+# VSCode
+.vscode/
+
+# Mac
+.DS_Store

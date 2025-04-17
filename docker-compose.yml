@@ -1,0 +1,10 @@
+
+services:
+  tiggy_voice:
+    build:
+      context: .
+    volumes:
+      - ./voice_data:/app/voice_data
+      - ./output:/app/output
+    ports:
+      - "5000:5000"
